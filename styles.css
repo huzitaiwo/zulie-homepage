@@ -10,6 +10,12 @@ body {
   color: #fff;
 }
 
+button:focus,
+a:focus,
+form:focus {
+  outline: 3px solid #392e81;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -61,12 +67,6 @@ nav.container {
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
-}
-
-button:focus,
-a:focus,
-form:focus {
-  outline: 3px solid #392e81;
 }
 
 .introduction {
@@ -387,5 +387,11 @@ h4.offer {
 
   .card-header {
     padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1500px;
   }
 }
