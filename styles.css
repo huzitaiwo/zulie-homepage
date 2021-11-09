@@ -166,6 +166,28 @@ button.free-trial {
   cursor: pointer;
 }
 
+.works__content-grid {
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: left;
+}
+
+.works__content-grid h3 {
+  font-size: 1.5rem;
+}
+
+.works__content-grid p {
+  max-width: 350px;
+  padding: 10px 0;
+}
+
+.order {
+  order: 1;
+}
+
 @media (max-width: 1200px) {
   .container {
     padding: 0 30px;
