@@ -42,6 +42,52 @@ nav.container {
   text-decoration: none;
 }
 
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.introduction h1,
+.introduction p {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.introduction h1 {
+  font-size: 2.5rem;
+}
+
+.introduction p {
+  padding: 15px 0;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.4;
+}
+
+form.contact-us {
+  padding: 5px;
+  background: #fefefe;
+  border-radius: 3px;
+  display: flex;
+}
+
+form.contact-us input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+form.contact-us button {
+  background-color: rgb(93, 16, 165);
+  color: #fff;
+  padding: 10px 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
 @media (max-width: 1200px) {
   .container {
     padding: 0 30px;
