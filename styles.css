@@ -115,12 +115,12 @@ p.transluscent-paragraph {
 
 .features__card {
   padding: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid #171238;
   border-radius: 4px;
 }
 
 .features__card:hover {
-  background: #211b4b;
+  background: #171238;
   cursor: pointer;
 }
 
@@ -186,6 +186,54 @@ button.free-trial {
 
 .order {
   order: 1;
+}
+
+.pricing__card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: left;
+}
+
+.pricing__card {
+  padding: 30px;
+  /* border: 2px solid rgba(0, 0, 0, 0.2); */
+  border-radius: 10px;
+  background: #171238;
+}
+
+.card-header {
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+h4.offer {
+  color: #392e81;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+/* .pricing {
+  display: flex;
+  align-items: center;
+  width: 100%;
+} */
+
+.pricing span,
+.fa-dollar-sign {
+  color: #392e81;
+  font-size: 1.4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.card-body {
+  padding: 15px 0;
+}
+
+.pricing__card li {
+  list-style: none;
+  padding: 5px 0;
 }
 
 @media (max-width: 1200px) {
