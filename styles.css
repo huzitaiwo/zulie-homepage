@@ -321,11 +321,53 @@ h4.offer {
     grid-template-columns: 1fr;
   }
 
-  .order {
-    /* order: 2; */
+  .features__card {
+    text-align: left;
+  }
+
+  .brand {
+    max-width: none;
+    margin: 0;
   }
 
   .works__content-grid img {
     width: 100%;
+  }
+}
+
+/* mobile protrait */
+@media (max-width: 515px) {
+  section {
+    padding: 40px 0;
+  }
+  .container {
+    padding: 0 15px;
+  }
+  .features__card-grid,
+  .works__content-grid,
+  .pricing__card-grid {
+    gap: 15px;
+    padding: 15px 0;
+  }
+
+  .features__card {
+    padding: 15px;
+  }
+
+  .works__content-grid p {
+    max-width: none;
+    margin: 0;
+  }
+
+  .order {
+    order: 0;
+  }
+
+  .pricing__card {
+    padding: 15px;
+  }
+
+  .card-header {
+    padding-bottom: 10px;
   }
 }
