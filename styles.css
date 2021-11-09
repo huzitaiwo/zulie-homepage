@@ -102,6 +102,8 @@ h3.secondary-heading {
 p.transluscent-paragraph {
   color: rgba(255, 255, 255, 0.55);
   padding: 5px 0;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .features__card-grid {
@@ -161,6 +163,7 @@ button.free-trial {
   border-radius: 3px;
   font-weight: 500;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
