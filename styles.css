@@ -5,15 +5,17 @@
   font-family: sans-serif;
 }
 
+/* #392e81 */
+
 body {
-  background-color: #100e1d;
+  background-color: #171739;
   color: #fff;
 }
 
 button:focus,
 a:focus,
 form:focus {
-  outline: 3px solid #392e81;
+  outline: 3px solid #7055d8;
 }
 
 .container {
@@ -53,14 +55,14 @@ nav.container {
 }
 
 .nav-links a:hover {
-  color: #392e81;
+  color: #7055d8;
 }
 
 .nav-links a::after {
   content: "";
   width: 10px;
   height: 10px;
-  background: #392e81;
+  background: #7055d8;
   border-radius: 50%;
   position: absolute;
   bottom: -10px;
@@ -89,7 +91,7 @@ nav.container {
 
 .introduction p {
   padding: 15px 0;
-  color: rgba(255, 255, 255, 0.55);
+  color: #585c81;
   line-height: 1.4;
 }
 
@@ -107,7 +109,7 @@ form.contact-us input {
 }
 
 form.contact-us button {
-  background-color: rgb(93, 16, 165);
+  background-color: #7055d8;
   color: #fff;
   padding: 10px 25px;
   cursor: pointer;
@@ -117,7 +119,7 @@ form.contact-us button {
 
 h2.landmark {
   font-size: 1rem;
-  color: rgb(179, 70, 70);
+  color: #744559;
 }
 
 h3.secondary-heading {
@@ -126,7 +128,7 @@ h3.secondary-heading {
 }
 
 p.transluscent-paragraph {
-  color: rgba(255, 255, 255, 0.55);
+  color: #585c81;
   padding: 5px 0;
   max-width: 300px;
   margin: 0 auto;
@@ -141,12 +143,12 @@ p.transluscent-paragraph {
 
 .features__card {
   padding: 30px;
-  border: 1px solid #171238;
+  border: 1px solid #1c1c3e;
   border-radius: 4px;
 }
 
 .features__card:hover {
-  background: #171238;
+  background: #1d1f4f;
   cursor: pointer;
 }
 
@@ -165,20 +167,20 @@ p.transluscent-paragraph {
 }
 
 .brand__1 {
-  background: rgb(16, 16, 131);
+  background: #3478fd;
 }
 .brand__2 {
-  background: #211b4b;
+  background: #6d4ed7;
 }
 .brand__3 {
-  background: rgb(207, 207, 18);
+  background: #ffbe32;
 }
 .brand__4 {
-  background: rgb(49, 126, 81);
+  background: #2bc549;
 }
 
 button.free-trial {
-  background-color: rgb(93, 16, 165);
+  background-color: #7055d8;
   color: #fff;
   display: block;
   width: 100%;
@@ -235,7 +237,7 @@ button.free-trial {
 
 .pricing__card:hover,
 .pricing__card:focus {
-  border: 5px solid #392e81;
+  border: 5px solid #7055d8;
   cursor: pointer;
 }
 
@@ -245,7 +247,7 @@ button.free-trial {
 }
 
 h4.offer {
-  color: #392e81;
+  color: #7055d8;
   text-transform: uppercase;
   padding-bottom: 10px;
 }
@@ -258,7 +260,7 @@ h4.offer {
 
 .pricing span,
 .fa-dollar-sign {
-  color: #392e81;
+  color: #7055d8;
   font-size: 1.4rem;
   font-size: 1.4rem;
   font-weight: 700;
@@ -269,7 +271,7 @@ h4.offer {
 }
 
 .pricing small {
-  color: #392e81;
+  color: #7055d8;
 }
 
 .card-body {
@@ -283,7 +285,7 @@ h4.offer {
 
 .card-btn {
   padding: 12px 15px;
-  background: rgba(0, 0, 0, 0.2);
+  background: #1d1f4f;
   color: #fff;
   margin-top: 15px;
   border: none;
@@ -292,7 +294,7 @@ h4.offer {
 }
 
 .card-btn:hover {
-  background: #392e81;
+  background: #7055d8;
 }
 
 .card-btn i {
