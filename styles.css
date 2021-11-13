@@ -210,9 +210,9 @@ button.free-trial {
 .works__content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 30px;
   align-items: center;
   text-align: left;
-  gap: 30px;
   margin-bottom: 30px;
 }
 
@@ -229,9 +229,13 @@ button.free-trial {
   width: 100%;
 }
 
-/* .order {
-  order: 1;
-} */
+div.right {
+  margin-left: auto;
+}
+
+img.order {
+  order: -1;
+}
 
 .pricing__card-grid {
   display: grid;
@@ -345,10 +349,6 @@ img.dollar {
   .works__content-grid img {
     width: 100%;
   }
-
-  .order {
-    /* order: 2; */
-  }
 }
 
 /* mobile landscape */
@@ -434,10 +434,18 @@ img.dollar {
   .works__content-grid img {
     width: 100%;
   }
+
+  img.order {
+    order: 0;
+  }
+
+  div.right {
+    margin: 0;
+  }
 }
 
 /* mobile protrait */
-@media (max-width: 515px) {
+@media (max-width: 512px) {
   section {
     padding: 40px 0;
   }
