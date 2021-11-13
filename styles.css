@@ -452,6 +452,12 @@ h4.offer {
   }
 }
 
+@media (max-width: 512px) {
+  nav.active {
+    padding: 15px;
+  }
+}
+
 @media (min-width: 1440px) {
   .container {
     max-width: 1500px;
