@@ -102,11 +102,17 @@ nav.container {
   line-height: 1.4;
 }
 
+.introduction img {
+  width: 100%;
+}
+
 form.contact-us {
   padding: 5px;
   background: #fefefe;
   border-radius: 3px;
   display: flex;
+  max-width: 500px;
+  margin: 10px auto 60px;
 }
 
 form.contact-us input {
@@ -202,13 +208,12 @@ button.free-trial {
 }
 
 .works__content-grid {
-  /* display: flex;
-  justify-content: space-between; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   text-align: left;
   gap: 30px;
+  margin-bottom: 30px;
 }
 
 .works__content-grid h3 {
@@ -220,9 +225,13 @@ button.free-trial {
   padding: 10px 0;
 }
 
-.order {
-  order: 1;
+.works__content-grid img {
+  width: 100%;
 }
+
+/* .order {
+  order: 1;
+} */
 
 .pricing__card-grid {
   display: grid;
@@ -265,9 +274,8 @@ h4.offer {
   width: 100%;
 }
 
-.pricing span {
-  font-size: 1.4rem;
-  font-size: 1.4rem;
+.price {
+  font-size: 1.6rem;
   font-weight: 700;
   color: #fff;
 }
@@ -285,8 +293,8 @@ img.dollar {
 }
 
 .fade {
-  opacity:0.4;
-} 
+  opacity: 0.1;
+}
 
 .pricing__card li {
   list-style: none;
@@ -336,6 +344,10 @@ img.dollar {
 
   .works__content-grid img {
     width: 100%;
+  }
+
+  .order {
+    /* order: 2; */
   }
 }
 
