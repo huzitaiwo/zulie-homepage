@@ -102,8 +102,22 @@ nav.container {
   line-height: 1.4;
 }
 
-.introduction img {
+.data {
   width: 100%;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-width: 100%;
+  overflow-x: scroll; */
+  margin-top: 30px;
+}
+
+.brands img {
+  width: 100px;
+  margin: 0 20px;
 }
 
 form.contact-us {
@@ -416,6 +430,11 @@ img.dollar {
     width: 35px;
   }
 
+  .brands {
+    min-width: 100%;
+    overflow-x: scroll;
+  }
+
   .features__card-grid,
   .pricing__card-grid,
   .works__content-grid {
@@ -452,6 +471,9 @@ img.dollar {
   .container {
     padding: 0 15px;
   }
+  nav.active {
+    padding: 15px;
+  }
   .features__card-grid,
   .works__content-grid,
   .pricing__card-grid {
@@ -478,12 +500,6 @@ img.dollar {
 
   .card-header {
     padding-bottom: 10px;
-  }
-}
-
-@media (max-width: 512px) {
-  nav.active {
-    padding: 15px;
   }
 }
 
